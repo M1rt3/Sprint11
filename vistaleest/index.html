@@ -11,7 +11,7 @@
   <h1 class="header">vista leest</h1>
 
     <form action="email.php" method="post">
-    <div class="container">
+    <div id="container" class="container">
       <div class="input-div">
         <input class="inputs" name="name" type="text" autocomplete="name" placeholder="name">
         <input class="inputs" name="email" type="text" autocomplete="email" placeholder="email">
@@ -28,7 +28,17 @@
   </form>
   
   <script defer src="https://cdn.jsdelivr.net/npm/rizalcss@2.1.0/js/components.min.js" integrity="sha256-3UCSBV90gv8A+IA1iZst64qLbw7u9y2Y6JbfRa21tKw=" crossorigin="anonymous"></script>
-  <h2 class="contact">contact</h2>
+  <button class="contact" onclick="show()">Contact</button>
+
+  <script>
+    function show (){
+      var container = document.getElementById("container")
+      container.style.display = 'block'
+    }
+
+
+
+  </script>
 
 </body>
 </html>
