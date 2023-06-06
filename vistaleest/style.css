@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-color: white;
+    height: 100vh;
+    
 }
 ol, ul {
 	list-style: none;
@@ -59,37 +61,65 @@ table {
     font-size: 60px ;
 }
 
+.lorem{
+    font-size: 50px;
+}
+
+.contact-container{
+    width: 100%;
+    height: 50px;
+    justify-content: flex-end;
+    display: flex;
+    bottom: 0px;
+    position: fixed;
+    margin-right: -1.5%;
+    
+
+}
 
 .contact{
     text-align: center;
     background-color: #0d5760;
     border-radius: 15px 15px 0px 0px;
-    margin-left: 95%;
-    margin-right: 1%;
+    margin-right: -.4%;
     color: white;
     font-size: 20px;
     padding-left: .5%;
-    padding-right: 2%;
+    padding-right: 4%;
     padding-top: .5%;
-    padding-bottom: .5%;
-    margin-bottom: .5%;
-    margin-top: .5%;
-   
-    
+    padding-bottom: 1%;
+    width: 2%;
+    margin-left: 2vh;
+    border: none;
+    position:fixed;
+    display: flex;
+    bottom: 0px;
+    transition: 1s;
 }
 
+.cntcnt{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -55px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom:-280px;
+    transition: 1s;
+}
+
+
 .container{
+    display: block;
     font-size: 30px;
-    margin-left: 80%;
-    margin-right: auto;
     background-color: #ec644a;
-    border-radius: 15px 0px 0px 15px;
-    width: 18%;
-    height: 3%;
+    border-radius: 15px 15px 15px 15px;
+    width: 120%;
+    height: 100%;
     padding: 2%;
-    margin-top: 2vh;
     font-size: 30px;
-    display: none;
+
+    
 }
 
 .inputs {
@@ -103,6 +133,3 @@ table {
     border-radius: 6px;
 }
 
-.contact:hover .container{
-    display: block;
-}

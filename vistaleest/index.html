@@ -9,9 +9,9 @@
 </head>
 <body>
   <h1 class="header">vista leest</h1>
-
-    <form action="email.php" method="post">
-    <div class="container">
+  <div class="cntcnt" id="cntcnt">  
+  <form action="email.php" method="post">
+    <div id="container" class="container">
       <div class="input-div">
         <input class="inputs" name="name" type="text" autocomplete="name" placeholder="name">
         <input class="inputs" name="email" type="text" autocomplete="email" placeholder="email">
@@ -25,10 +25,29 @@
 
          <input type="submit" value="submit"> 
     </div>
-  </form>
   
+  </form>
+ </div> 
   <script defer src="https://cdn.jsdelivr.net/npm/rizalcss@2.1.0/js/components.min.js" integrity="sha256-3UCSBV90gv8A+IA1iZst64qLbw7u9y2Y6JbfRa21tKw=" crossorigin="anonymous"></script>
-  <h2 class="contact">contact</h2>
+  <div class="contact-container">
+    <button class="contact" onclick="show()">Contact</button>
+  </div>
 
+  <script>
+  function show(){
+    const one = document.querySelector('.contact');
+    const two = document.querySelector('.cntcnt');
+  if(one.style.bottom != '265px') {
+    one.style.bottom = '265px';
+    two.style.bottom = '5px';
+  }
+  else{
+    one.style.bottom = '0px';
+    two.style.bottom = '-280px';
+  }
+    
+    
+  }
+  </script>
 </body>
 </html>
