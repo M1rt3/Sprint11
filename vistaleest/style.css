@@ -73,6 +73,7 @@ table {
     bottom: 0px;
     position: fixed;
     margin-right: -1.5%;
+    z-index: 1;
     
 
 }
@@ -87,13 +88,13 @@ table {
     padding-left: .5%;
     padding-right: 4%;
     padding-top: .5%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
     width: 2%;
     margin-left: 2vh;
     border: none;
     position:fixed;
     display: flex;
-    bottom:0px;
+    bottom:-85px;
     transition: 1s;
     
 }
@@ -106,6 +107,7 @@ table {
     position: fixed;
     bottom:-280px;
     transition: 1s;
+    z-index: 2;
 }
 
 
