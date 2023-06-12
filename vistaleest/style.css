@@ -32,6 +32,10 @@ body {
 	line-height: 1;
     background-color: white;
     height: 100vh;
+    background: url("images/library2.jpg");
+     background-size: contain;
+    box-shadow: inset 0 0 0 2000px rgba(32, 19, 27, 0.371);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 ol, ul {
@@ -55,10 +59,16 @@ table {
 .header{
     padding-left: 1%;
     padding-top: .5%;
-    padding-bottom: 1%;
+    padding-bottom: .5%;
     background-color: #0d5760;
     color: white;
     font-size: 60px ;
+    opacity: 95%;
+}
+
+.vista{
+    height: 50px;
+    padding-top: .5%;
 }
 
 .lorem{
@@ -129,5 +139,15 @@ table {
     margin-bottom: 1vh;
     font-size: 25px;
     border-radius: 6px;
+}
+
+.submit{
+    font-size: 20px;
+    margin-left: 38%;
+    background-color: #0d5760;
+    color: white;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
 }
 
