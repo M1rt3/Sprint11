@@ -188,13 +188,13 @@ background-repeat: repeat;
     height: 10%;
     border-radius: 20%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     transition: 2s cubic-bezier(.33,.48,0,.94);
-    background-color: #ffffff;
-    opacity: .95;
-    background-image: radial-gradient(circle at center center, #0d5760, #ffffff), repeating-radial-gradient(circle at center center, #0d5760, #0d5760, 40px, transparent 80px, transparent 40px);
-    background-blend-mode: multiply;
-    
+    background-color: #0d5760;
+opacity: 0.9;
+background-image:  radial-gradient(#ffffff 1.3px, transparent 1.3px), radial-gradient(#ffffff 1.3px, #0d5760 1.3px);
+background-size: 52px 52px;
+background-position: 0 0,26px 26px;
   
     
     
@@ -229,27 +229,45 @@ background-repeat: repeat;
 }
 
 .one{
-    height:80%;
+    height:auto;
     width: 30%;
     padding-right: 2vh;
     border-radius: 20px 20px 20px 20px;
+    transition: 2s cubic-bezier(.33,.48,0,.94);
+}
+
+.one:hover{
+    width: 60%;
+    height: auto;
+
 }
 
 .two{
-    height:80%;
+    height:auto;
     width: 30%;
     padding-right: 2vh;
     border-radius: 20px 20px 20px 20px;
+    transition: 2s cubic-bezier(.33,.48,0,.94);
+}
+
+.two:hover{
+    width: 60%;
+    height: auto;
+
 }
 
 .three{
-    height:80%;
+    height:auto;
     width: 30%;
     padding-right: 2vh;
     border-radius: 20px 20px 20px 20px;
+    transition: 2s cubic-bezier(.33,.48,0,.94);
 }
 
-
+.three:hover{
+    width: 60%;
+    height: auto;
+}
 
 
 .right:hover .rightcontent{
@@ -272,10 +290,10 @@ background-repeat: repeat;
     text-align: center;
     font-size: 40px;
     transition: 2s cubic-bezier(.33,.48,0,.94);
-    background-color: #ffffff;
-    opacity: .95;
-    background-image: radial-gradient(circle at center center, #0d5760, #ffffff), repeating-radial-gradient(circle at center center, #0d5760, #0d5760, 40px, transparent 80px, transparent 40px);
-    background-blend-mode: multiply;
+    opacity: 0.9;
+background-image:  radial-gradient(#ffffff 1.3px, transparent 1.3px), radial-gradient(#ffffff 1.3px, #0d5760 1.3px);
+background-size: 52px 52px;
+background-position: 0 0,26px 26px;
 }
 
 
@@ -331,19 +349,18 @@ background-repeat: repeat;
     margin-top:5%;
     margin-left:10%;
     margin-right: 5%;
-
     margin-bottom:0% ;
     margin-top: 12%;
     height: 10%;
     border-radius: 20%;
     clear: both;
     text-align: center;
-    font-size: 40px;
-    transition: 2s cubic-bezier(.33,.48,0,.94);
-    background-color: #ffffff;
-    opacity: .95;
-    background-image: radial-gradient(circle at center center, #0d5760, #ffffff), repeating-radial-gradient(circle at center center, #0d5760, #0d5760, 40px, transparent 80px, transparent 40px);
-    background-blend-mode: multiply;
+    font-size: 30px;
+    transition: 2s;
+    opacity: 0.9;
+    background-image:  radial-gradient(#ffffff 1.3px, transparent 1.3px), radial-gradient(#ffffff 1.3px, #0d5760 1.3px);
+    background-size: 52px 52px;
+    background-position: 0 0,26px 26px;
 }
 
 
